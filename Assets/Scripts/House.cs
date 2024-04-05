@@ -2,20 +2,20 @@ using UnityEngine;
 
 public class House : MonoBehaviour
 {
-    private AmbientSound _ambientSound;
+    private Alarm _alarm;
 
     private void Start()
     {
-        _ambientSound = GetComponent<AmbientSound>();
+        _alarm = GetComponent<Alarm>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        _ambientSound.SoundOn();
+        _alarm.SoundOn();
     }
 
     private void OnTriggerExit(Collider other)
     {
-        _ambientSound.SoundOff();
+        _alarm.SoundOff();
     }
 }
