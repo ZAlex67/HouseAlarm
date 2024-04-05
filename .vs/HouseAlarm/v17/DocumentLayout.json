@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\MyUnityProject\\HouseAlarm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF934889-82D7-5FFD-E29F-B5EF247AD92D}|Assembly-CSharp.csproj|d:\\myunityproject\\housealarm\\assets\\scripts\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF934889-82D7-5FFD-E29F-B5EF247AD92D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF934889-82D7-5FFD-E29F-B5EF247AD92D}|Assembly-CSharp.csproj|d:\\myunityproject\\housealarm\\assets\\scripts\\ambientsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF934889-82D7-5FFD-E29F-B5EF247AD92D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ambientsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF934889-82D7-5FFD-E29F-B5EF247AD92D}|Assembly-CSharp.csproj|d:\\myunityproject\\housealarm\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF934889-82D7-5FFD-E29F-B5EF247AD92D}|Assembly-CSharp.csproj|D:\\MyUnityProject\\HouseAlarm\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF934889-82D7-5FFD-E29F-B5EF247AD92D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Movement.cs",
               "DocumentMoniker": "D:\\MyUnityProject\\HouseAlarm\\Assets\\Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
               "ToolTip": "D:\\MyUnityProject\\HouseAlarm\\Assets\\Scripts\\Movement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T04:42:37.034Z",
               "EditorCaption": ""
@@ -36,12 +40,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "House.cs",
+              "DocumentMoniker": "D:\\MyUnityProject\\HouseAlarm\\Assets\\Scripts\\House.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\House.cs",
+              "ToolTip": "D:\\MyUnityProject\\HouseAlarm\\Assets\\Scripts\\House.cs",
+              "RelativeToolTip": "Assets\\Scripts\\House.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T04:42:43.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AmbientSound.cs",
               "DocumentMoniker": "D:\\MyUnityProject\\HouseAlarm\\Assets\\Scripts\\AmbientSound.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AmbientSound.cs",
               "ToolTip": "D:\\MyUnityProject\\HouseAlarm\\Assets\\Scripts\\AmbientSound.cs",
               "RelativeToolTip": "Assets\\Scripts\\AmbientSound.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T04:41:53.123Z",
               "EditorCaption": ""

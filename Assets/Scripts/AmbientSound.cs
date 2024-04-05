@@ -7,27 +7,45 @@ public class AmbientSound : MonoBehaviour
     [SerializeField] private AudioSource _ambientSound;
     [SerializeField] private float _volumeCoefficient;
 
+    private Coroutine _coroutine;
+
     private void Start()
     {
         _ambientSound = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void SoundOn()
     {
         float volumeValue = 1f;
 
-        StartCoroutine(ChangeVolume(volumeValue));
+        Stop();
+
+        Restart(volumeValue);
 
         _ambientSound.Play();
     }
 
-    private void OnTriggerExit(Collider other)
+    public void SoundOff()
     {
         float volumeValue = 0f;
 
-        StartCoroutine(ChangeVolume(volumeValue));
+        Stop();
 
-        _ambientSound.Play();
+        Restart(volumeValue);
+
+        if (_ambientSound.volume == volumeValue)
+            _ambientSound.Stop();
+    }
+
+    private void Stop()
+    {
+        if (_coroutine != null)
+            StopCoroutine(_coroutine);
+    }
+
+    private void Restart(float volumeValue)
+    {
+        _coroutine = StartCoroutine(ChangeVolume(volumeValue));
     }
 
     private IEnumerator ChangeVolume(float volumeValue)

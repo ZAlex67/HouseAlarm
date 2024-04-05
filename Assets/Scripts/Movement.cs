@@ -8,8 +8,10 @@ public class Movement : MonoBehaviour
     [SerializeField] private float _stepDistance;
 
     private float _coveredDistance = 0f;
+    private string _axisHorizonral = "Horizontal";
+    private string _axisVertical = "Vertical";
 
-    void Update()
+    private void Update()
     {
         Rotate();
         Move();
@@ -17,13 +19,13 @@ public class Movement : MonoBehaviour
 
     private void Rotate()
     {
-        float rotation = Input.GetAxis("Horizontal");
+        float rotation = Input.GetAxis(_axisHorizonral);
         transform.Rotate(_rotationSpeed * rotation * Time.deltaTime * Vector3.up);
     }
 
     private void Move()
     {
-        float direction = Input.GetAxis("Vertical");
+        float direction = Input.GetAxis(_axisVertical);
 
         if (direction == 0f)
         {
