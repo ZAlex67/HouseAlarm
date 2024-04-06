@@ -14,24 +14,13 @@ public class Alarm : MonoBehaviour
         _alarm = GetComponent<AudioSource>();
     }
 
-    public void SoundOn()
+    public void SoundController(float volumeValue)
     {
-        float volumeValue = 1f;
-
         StopCoroutine();
 
         StartCoroutine(volumeValue);
 
         _alarm.Play();
-    }
-
-    public void SoundOff()
-    {
-        float volumeValue = 0f;
-
-        StopCoroutine();
-
-        StartCoroutine(volumeValue);
     }
 
     private void StopCoroutine()

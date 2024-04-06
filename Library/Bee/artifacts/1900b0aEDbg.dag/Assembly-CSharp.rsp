@@ -361,6 +361,7 @@
 "Assets/Scripts/Alarm.cs"
 "Assets/Scripts/House.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/Player.cs"
 -langversion:9.0
 
 /deterministic
